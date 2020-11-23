@@ -8,6 +8,14 @@ group = 'com.vwits.resourcemgmt'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+/**
+ *This is task for update Gradle wrapper version.
+ */
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.7'
+    distributionUrl = "https://services.gradle.org/distributions/gradle-${gradleVersion}-all.zip"
+}
+
 sourceSets {
     integrationTest {
         compileClasspath += sourceSets.main.output
