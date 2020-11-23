@@ -12,7 +12,7 @@ sourceCompatibility = '1.8'
  *This is task for update Gradle wrapper version.
  */
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.7'
+    gradleVersion = '6.2.2'
     distributionUrl = "https://services.gradle.org/distributions/gradle-${gradleVersion}-all.zip"
 }
 
